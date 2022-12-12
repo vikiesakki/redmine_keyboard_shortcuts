@@ -1,3 +1,4 @@
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/lib/"
 Redmine::Plugin.register :redmine_keyboard_shortcuts do
   name 'Redmine Keyboard Shortcuts'
   author 'Austin Smith'
